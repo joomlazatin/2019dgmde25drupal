@@ -1,0 +1,8 @@
+uuid: 00bbcd35-e204-4deb-bf4c-366bd498e576
+langcode: en
+status: true
+dependencies: {  }
+id: faqs
+label: FAQs
+description: 'This is for Frequently Asked Questions'
+locked: false

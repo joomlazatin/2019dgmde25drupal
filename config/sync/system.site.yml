@@ -1,0 +1,14 @@
+uuid: d0811956-201a-4e3f-8d41-fa6ec19b3eaf
+name: 'AcedImage Photography'
+mail: darwin.lazatin@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/8
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

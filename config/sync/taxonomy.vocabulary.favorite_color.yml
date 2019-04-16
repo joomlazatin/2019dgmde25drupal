@@ -1,0 +1,9 @@
+uuid: 31ce0e6f-b562-4c8b-989b-7dbf06fd74ad
+langcode: en
+status: true
+dependencies: {  }
+name: 'Favorite Color'
+vid: favorite_color
+description: ''
+hierarchy: 0
+weight: 0

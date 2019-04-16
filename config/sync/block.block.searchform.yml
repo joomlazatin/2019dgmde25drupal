@@ -1,0 +1,28 @@
+uuid: 79474529-2dd0-4061-9cfc-b1c20bc6d148
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - search
+  theme:
+    - bartik
+id: searchform
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search '
+  provider: search
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

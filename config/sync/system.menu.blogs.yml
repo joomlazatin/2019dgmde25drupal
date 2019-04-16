@@ -1,0 +1,8 @@
+uuid: 879ec94c-129c-4c9e-86c0-0e1b0cb413d4
+langcode: en
+status: true
+dependencies: {  }
+id: blogs
+label: Blogs
+description: 'This is a menu for blogs'
+locked: false
