@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "152c8d5c54d440baa8ce7f4874dbd025",
+    "content-hash": "9453facd7b2888e98415a4dfd02f4bb7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2090,6 +2090,70 @@
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
             "time": "2019-03-30T10:41:38+00:00"
+        },
+        {
+            "name": "drupal/colorbox",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/colorbox.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/colorbox-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "bf163fd2d28450c1324512ad7e6a72fc48d274e3"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1493051344",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "RenatoG",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "frjo",
+                    "homepage": "https://www.drupal.org/user/5546"
+                },
+                {
+                    "name": "jdwfly",
+                    "homepage": "https://www.drupal.org/user/298179"
+                },
+                {
+                    "name": "rsmylski",
+                    "homepage": "https://www.drupal.org/user/1324348"
+                }
+            ],
+            "description": "A light-weight, customizable lightbox plugin for jQuery.",
+            "homepage": "https://www.drupal.org/project/colorbox",
+            "support": {
+                "source": "https://cgit.drupalcode.org/colorbox",
+                "issues": "https://www.drupal.org/project/colorbox"
+            }
         },
         {
             "name": "drupal/console",
@@ -4373,7 +4437,7 @@
         },
         {
             "name": "symfony/class-loader",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/class-loader.git",
@@ -4493,7 +4557,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -4618,7 +4682,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -4674,16 +4738,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "dee85a9148399cdb2731603802842bcfd8afe5ab"
+                "reference": "be0feb3fa202aedfd8d1956f2dafd563fb13acbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/dee85a9148399cdb2731603802842bcfd8afe5ab",
-                "reference": "dee85a9148399cdb2731603802842bcfd8afe5ab",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/be0feb3fa202aedfd8d1956f2dafd563fb13acbf",
+                "reference": "be0feb3fa202aedfd8d1956f2dafd563fb13acbf",
                 "shasum": ""
             },
             "require": {
@@ -4741,7 +4805,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-16T11:13:42+00:00"
+            "time": "2019-04-20T15:32:49+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -4802,7 +4866,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -4964,16 +5028,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "90454ad44c95d75faf3507d56388056001b74baf"
+                "reference": "fa02215233be8de1c2b44617088192f9e8db3512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/90454ad44c95d75faf3507d56388056001b74baf",
-                "reference": "90454ad44c95d75faf3507d56388056001b74baf",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/fa02215233be8de1c2b44617088192f9e8db3512",
+                "reference": "fa02215233be8de1c2b44617088192f9e8db3512",
                 "shasum": ""
             },
             "require": {
@@ -5014,20 +5078,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-17T14:51:18+00:00"
+            "time": "2019-05-01T08:04:33+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "14fa41ccd38570b5e3120a3754bbaa144a15f311"
+                "reference": "586046f5adc6a08eaebbe4519ef18ad52f54e453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/14fa41ccd38570b5e3120a3754bbaa144a15f311",
-                "reference": "14fa41ccd38570b5e3120a3754bbaa144a15f311",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/586046f5adc6a08eaebbe4519ef18ad52f54e453",
+                "reference": "586046f5adc6a08eaebbe4519ef18ad52f54e453",
                 "shasum": ""
             },
             "require": {
@@ -5103,7 +5167,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-17T15:57:07+00:00"
+            "time": "2019-05-01T13:03:24+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -5397,7 +5461,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -5511,7 +5575,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
@@ -5587,16 +5651,16 @@
         },
         {
             "name": "symfony/serializer",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "14b3221cc41dcfef404205f0060cda873f43a534"
+                "reference": "99aceeb3e10852b951b9cab57a2b83062db09efb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/14b3221cc41dcfef404205f0060cda873f43a534",
-                "reference": "14b3221cc41dcfef404205f0060cda873f43a534",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/99aceeb3e10852b951b9cab57a2b83062db09efb",
+                "reference": "99aceeb3e10852b951b9cab57a2b83062db09efb",
                 "shasum": ""
             },
             "require": {
@@ -5619,7 +5683,7 @@
                 "symfony/dependency-injection": "~3.2|~4.0",
                 "symfony/http-foundation": "~2.8|~3.0|~4.0",
                 "symfony/property-access": "~2.8|~3.0|~4.0",
-                "symfony/property-info": "~3.1|~4.0",
+                "symfony/property-info": "^3.4.13|~4.0",
                 "symfony/yaml": "~3.4|~4.0"
             },
             "suggest": {
@@ -5662,20 +5726,20 @@
             ],
             "description": "Symfony Serializer Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-11T05:44:34+00:00"
+            "time": "2019-04-27T21:20:35+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "aae26f143da71adc8707eb489f1dc86aef7d376b"
+                "reference": "301a5d627220a1c4ee522813b0028653af6c4f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/aae26f143da71adc8707eb489f1dc86aef7d376b",
-                "reference": "aae26f143da71adc8707eb489f1dc86aef7d376b",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/301a5d627220a1c4ee522813b0028653af6c4f54",
+                "reference": "301a5d627220a1c4ee522813b0028653af6c4f54",
                 "shasum": ""
             },
             "require": {
@@ -5732,20 +5796,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-10T16:00:48+00:00"
+            "time": "2019-05-01T11:10:09+00:00"
         },
         {
             "name": "symfony/validator",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "83da5259779aaf9dde220130e62b785f74e2ac49"
+                "reference": "cc3f577d8887737df4d77a4c0cc6e3c22164cea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/83da5259779aaf9dde220130e62b785f74e2ac49",
-                "reference": "83da5259779aaf9dde220130e62b785f74e2ac49",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/cc3f577d8887737df4d77a4c0cc6e3c22164cea4",
+                "reference": "cc3f577d8887737df4d77a4c0cc6e3c22164cea4",
                 "shasum": ""
             },
             "require": {
@@ -5817,7 +5881,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-16T11:21:44+00:00"
+            "time": "2019-04-29T08:34:27+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -5897,7 +5961,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -5956,16 +6020,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.39.1",
+            "version": "v1.40.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "23e7b6f0cfa1d7ba3de69f30d8e05cf957412fec"
+                "reference": "35889516bbd6bbe46a600c2c33b03515df4a076e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/23e7b6f0cfa1d7ba3de69f30d8e05cf957412fec",
-                "reference": "23e7b6f0cfa1d7ba3de69f30d8e05cf957412fec",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/35889516bbd6bbe46a600c2c33b03515df4a076e",
+                "reference": "35889516bbd6bbe46a600c2c33b03515df4a076e",
                 "shasum": ""
             },
             "require": {
@@ -5980,7 +6044,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.39-dev"
+                    "dev-master": "1.40-dev"
                 }
             },
             "autoload": {
@@ -6018,7 +6082,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-04-16T17:12:57+00:00"
+            "time": "2019-04-29T14:12:28+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
