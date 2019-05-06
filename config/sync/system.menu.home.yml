@@ -1,8 +1,0 @@
-uuid: 73457a6a-d262-4133-a845-5f858e2c5187
-langcode: en
-status: true
-dependencies: {  }
-id: home
-label: Home
-description: 'This is the landing page of the website.'
-locked: false

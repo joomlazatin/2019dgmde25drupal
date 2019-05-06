@@ -1,8 +1,0 @@
-uuid: e860908a-f3c2-482f-8e25-aae2600e7e30
-langcode: en
-status: true
-dependencies: {  }
-id: family-portraits
-label: 'Family Portraits'
-description: 'This is a gallery of family portraits'
-locked: false

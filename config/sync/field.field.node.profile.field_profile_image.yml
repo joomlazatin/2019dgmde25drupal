@@ -1,4 +1,4 @@
-uuid: 1185c5b2-4190-4af3-9f2a-dc24e378059d
+uuid: 8e5d9bf6-4f77-49c6-ace0-3f7d0aadaf7f
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: profile
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: '1 MB'
   max_resolution: ''

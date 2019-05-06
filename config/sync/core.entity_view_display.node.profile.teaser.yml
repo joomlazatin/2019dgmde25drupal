@@ -5,17 +5,43 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.profile.body
+    - field.field.node.profile.field_email
+    - field.field.node.profile.field_phone
     - node.type.profile
   module:
+    - ds
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col_wrapper
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      ds_content:
+        - field_email
+        - field_favorite_color
+        - field_phone
+        - field_profile_image
+        - links
+        - body
 id: node.profile.teaser
 targetEntityType: node
 bundle: profile
 mode: teaser
 content:
   body:
-    label: hidden
+    label: above
     type: text_summary_or_trimmed
     weight: 101
     settings:
@@ -24,7 +50,9 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
-hidden: {  }
+hidden:
+  field_email: true
+  field_phone: true

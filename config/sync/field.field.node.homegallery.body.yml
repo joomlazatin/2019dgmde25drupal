@@ -1,0 +1,22 @@
+uuid: a208c7b8-34db-43b4-99d1-8a1549fe9fd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.homegallery
+  module:
+    - text
+id: node.homegallery.body
+field_name: body
+entity_type: node
+bundle: homegallery
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,29 @@
+uuid: d12442a2-e83c-4f48-a92b-76174ef389dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_specialization
+    - node.type.profile
+    - taxonomy.vocabulary.photography_specialization
+id: node.profile.field_specialization
+field_name: field_specialization
+entity_type: node
+bundle: profile
+label: Specialization
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      photography_specialization: photography_specialization
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

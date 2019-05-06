@@ -1,8 +1,0 @@
-uuid: b44ed24a-7c04-43ab-a40e-b1ddabf2f042
-langcode: en
-status: true
-dependencies: {  }
-id: weddings
-label: Weddings
-description: 'This is a gallery for weddings.'
-locked: false

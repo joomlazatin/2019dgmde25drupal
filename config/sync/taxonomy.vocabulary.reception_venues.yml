@@ -1,0 +1,9 @@
+uuid: 4efd5d72-9b86-4998-85ce-d58d726d6ed2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Reception Venues'
+vid: reception_venues
+description: 'This classifies the reception venues used for weddings'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,9 @@
+uuid: 3d81d65d-c198-4804-9849-3e199055f6ac
+langcode: en
+status: true
+dependencies: {  }
+name: 'Photography Specialization'
+vid: photography_specialization
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,38 @@
+uuid: 4473e22c-92ce-4602-a427-e93250c954cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_home
+  module:
+    - image
+    - user
+id: user.user.field_home
+field_name: field_home
+entity_type: user
+bundle: user
+label: Home
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 25066cc4-678c-4ec3-aa15-d115d2005662
+    alt: ''
+    title: ''
+    width: 1252
+    height: 835
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

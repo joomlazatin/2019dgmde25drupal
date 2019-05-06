@@ -1,0 +1,9 @@
+uuid: 1738b1c4-c54a-412a-94b7-43dc89a3629d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ceremony Venues'
+vid: ceremony_venues
+description: 'This is a classification for Ceremony Venues'
+hierarchy: 0
+weight: 0

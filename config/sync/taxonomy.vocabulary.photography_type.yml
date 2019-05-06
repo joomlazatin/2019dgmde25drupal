@@ -1,0 +1,9 @@
+uuid: e65cef8d-9f38-44bc-8d0c-30e6aa0c3014
+langcode: en
+status: true
+dependencies: {  }
+name: 'Photography Type'
+vid: photography_type
+description: 'Type of Photography Requested'
+hierarchy: 0
+weight: 0

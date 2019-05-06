@@ -1,0 +1,29 @@
+uuid: 45eaf139-e003-4a40-9da3-d67b4c8b7151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photography_type
+    - node.type.homegallery
+    - taxonomy.vocabulary.photography_type
+id: node.homegallery.field_photography_type
+field_name: field_photography_type
+entity_type: node
+bundle: homegallery
+label: 'Photography Type'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      photography_type: photography_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

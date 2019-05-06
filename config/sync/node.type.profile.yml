@@ -7,9 +7,9 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
-      - main
-    parent: 'main:'
-name: Profile
+      - photographers
+    parent: 'photographers:'
+name: 'Photographer''s Profile'
 type: profile
 description: ''
 help: ''

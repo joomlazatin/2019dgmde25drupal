@@ -5,12 +5,13 @@ dependencies:
   config:
     - field.field.node.profile.body
     - field.field.node.profile.field_email
-    - field.field.node.profile.field_favorite_color
     - field.field.node.profile.field_phone
     - field.field.node.profile.field_profile_image
-    - image.style.profile_image
+    - field.field.node.profile.field_specialization
+    - image.style.medium
     - node.type.profile
   module:
+    - ds
     - image
     - telephone
     - text
@@ -28,22 +29,14 @@ content:
     third_party_settings: {  }
     region: content
   field_email:
-    weight: 5
-    label: visually_hidden
+    weight: 4
+    label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
-    region: content
-  field_favorite_color:
-    weight: 3
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
+    type: email_mailto
     region: content
   field_phone:
-    weight: 4
+    weight: 3
     label: above
     settings:
       title: ''
@@ -52,12 +45,22 @@ content:
     region: content
   field_profile_image:
     weight: 1
-    label: above
+    label: hidden
     settings:
-      image_style: profile_image
+      image_style: medium
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_specialization:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: entity_reference_label
     region: content
   links:
     weight: 0

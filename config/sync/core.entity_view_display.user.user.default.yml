@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_home
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
     - image
     - user
@@ -15,16 +15,15 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  member_for:
-    weight: 5
-    region: content
-  user_picture:
-    type: image
+  field_home:
     weight: 0
-    region: content
+    label: above
     settings:
-      image_style: thumbnail
-      image_link: content
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    label: hidden
-hidden: {  }
+    type: image
+    region: content
+hidden:
+  member_for: true
+  user_picture: true

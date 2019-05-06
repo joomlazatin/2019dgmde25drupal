@@ -1,15 +1,23 @@
-uuid: a0f4ceaa-aa0f-4234-b153-8f3689e166f2
+uuid: c8b10cea-65d6-4972-a704-fd1a2f5033df
 langcode: en
 status: true
 dependencies: {  }
 name: profile_image
 label: 'Profile Image'
 effects:
-  49fbfeb2-8129-475a-9566-21d1b9f37f98:
-    uuid: 49fbfeb2-8129-475a-9566-21d1b9f37f98
+  d6b43cc8-4db1-434b-8bcc-b2c6c74eb4fc:
+    uuid: d6b43cc8-4db1-434b-8bcc-b2c6c74eb4fc
     id: image_scale_and_crop
     weight: 1
     data:
       width: 140
       height: 200
+      anchor: center-center
+  f550ed92-eaa7-414f-9721-645f144ea4b2:
+    uuid: f550ed92-eaa7-414f-9721-645f144ea4b2
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 200
+      height: 400
       anchor: center-center

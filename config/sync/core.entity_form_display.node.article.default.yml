@@ -5,8 +5,12 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_ceremony_venue
     - field.field.node.article.field_image
+    - field.field.node.article.field_image_gallery
+    - field.field.node.article.field_photography_type
     - field.field.node.article.field_tags
+    - field.field.node.article.field_venue
     - image.style.thumbnail
     - node.type.article
   module:
@@ -42,6 +46,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_ceremony_venue:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
   field_image:
     type: image_image
     weight: 4
@@ -50,6 +60,20 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+  field_image_gallery:
+    weight: 121
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_photography_type:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
@@ -59,6 +83,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_venue:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
   path:
     type: path
     weight: 30

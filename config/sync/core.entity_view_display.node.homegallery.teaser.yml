@@ -1,0 +1,73 @@
+uuid: 82b8c732-8420-4985-a186-37553136763d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homegallery.body
+    - field.field.node.homegallery.field_galleryimage
+    - field.field.node.homegallery.field_photography_type
+    - node.type.homegallery
+  module:
+    - ds
+    - photoswipe
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          first: div
+          second: div
+          third: div
+          fourth: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      first:
+        - field_galleryimage
+        - field_photography_type
+        - links
+        - body
+id: node.homegallery.teaser
+targetEntityType: node
+bundle: homegallery
+mode: teaser
+content:
+  field_galleryimage:
+    type: photoswipe_field_formatter
+    weight: 0
+    region: first
+    label: above
+    settings:
+      photoswipe_node_style_first: ''
+      photoswipe_node_style: ''
+      photoswipe_image_style: ''
+      photoswipe_reference_image_field: ''
+      photoswipe_caption: ''
+      photoswipe_caption_custom: ''
+      photoswipe_view_mode: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+  field_photography_type:
+    type: entity_reference_entity_id
+    weight: 1
+    region: first
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+    region: first
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true

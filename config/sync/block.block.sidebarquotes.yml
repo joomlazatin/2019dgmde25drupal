@@ -1,0 +1,25 @@
+uuid: 92b3df64-bd57-4e68-8f23-93e2bc1cd1f4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:eb977654-cce7-43ce-bced-71e59181935e'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: sidebarquotes
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:eb977654-cce7-43ce-bced-71e59181935e'
+settings:
+  id: 'block_content:eb977654-cce7-43ce-bced-71e59181935e'
+  label: 'SideBar Quotes'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

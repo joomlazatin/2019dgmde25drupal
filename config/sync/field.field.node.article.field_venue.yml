@@ -1,0 +1,29 @@
+uuid: 1385f978-0c7e-423f-8719-b543ad526752
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_venue
+    - node.type.article
+    - taxonomy.vocabulary.reception_venues
+id: node.article.field_venue
+field_name: field_venue
+entity_type: node
+bundle: article
+label: 'Reception Venue'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      reception_venues: reception_venues
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
