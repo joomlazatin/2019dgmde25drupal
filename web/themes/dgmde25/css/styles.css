@@ -1,0 +1,12 @@
+body {
+  background-color: cornsilk;
+}
+
+footer {
+	background-color: #993333;
+	color: white;
+	padding: 1em;
+	margin-top: 3em;
+	border-top: 2px solid black;
+	clear: both;
+}
