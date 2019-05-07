@@ -53,6 +53,10 @@ main {
     float:left;
 }
 
+.layout-content{
+    float:left;
+}
+
 .layout-sidebar-first{
     width: 10%;
 }
