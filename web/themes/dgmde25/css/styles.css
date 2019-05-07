@@ -54,15 +54,16 @@ main {
     display: flex;
 }
 
-.content-wrapper{
-    width: 70%;
+.layout-sidebar-first{
+    width: 10%;
 }
 
-.side-navigation{
-    width: 25%;
-    background-color: white;
-	color: #a88a4b;    
+.content-wrapper{
+    width: 60%;
+}
 
+.layout-sidebar-second{
+    width: 10%;
 }
 
 footer {
