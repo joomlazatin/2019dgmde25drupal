@@ -1,12 +1,16 @@
 body {
-  background-color: cornsilk;
+  background-color: white;
 }
 
-footer {
-	background-color: #993333;
-	color: white;
-	padding: 1em;
-	margin-top: 3em;
-	border-top: 2px solid black;
-	clear: both;
+main {
+    display:flex;
 }
+.content-wrapper{
+    width: 70%;
+}
+
+.side-navigation {
+    width: 25%;
+}
+   
+
