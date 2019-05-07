@@ -1,5 +1,11 @@
+<!--
+aside {
+    display: flex;
+	background-color: white;
+	color: #a88a4b;    
+}
+-->
 
-   
 body {
 	font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -19,7 +25,7 @@ a {
 	color: #a88a4b;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: white;
 }
 nav {
 	background-color: black;
@@ -47,17 +53,23 @@ nav a:hover {
 .maincontent {
 	clear: both;
 }
+
 main {
- 	width: 70%;
- 	float: left;
- 	margin: 0 1%;
-}
-aside {
-	width: 20%;
     display: flex;
-	background-color: white;
-	color: #a88a4b;    
 }
+
+.content-wrapper{
+    width: 70%;
+}
+
+.side-navigation{
+    width: 25%;
+    background-color: white;
+	color: #a88a4b;    
+
+}
+
+
 footer {
 	background-color: white;
 	color: #a88a4b;
