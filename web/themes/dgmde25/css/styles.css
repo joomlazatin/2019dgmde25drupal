@@ -53,10 +53,8 @@ nav a:hover {
     width: 50%;
     box-sizing: border-box;
     max-width: 1290px;  
-    <!--
     margin-right: auto;
     margin-left: auto;
-     -->
     margin-top: 20px;
     margin-bottom: 40px;
 }
