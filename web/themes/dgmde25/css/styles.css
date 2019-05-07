@@ -47,16 +47,28 @@ nav a:hover {
     font-weight: bold;
 }
 
-.layout-sidebar-first{
-    width: 10%;
-}
+
 
 .content-wrapper{
-    width: 60%;
+    width: 50%;
+    box-sizing: border-box;
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.layout-sidebar-first{
+    width: 10%;
+    display: flex;
+    float: left;
 }
 
 .layout-sidebar-second{
     width: 20%;
+    display: flex;
+    float: right;
 }
 
 
