@@ -1,21 +1,10 @@
-<!--
-aside {
-    display: flex;
-	background-color: white;
-	color: #a88a4b;    
-}
--->
 
-<<<<<<< HEAD
 aside {
-	width: 20%;
     display: flex;
 	background-color: white;
 	color: #a88a4b;    
 }
    
-=======
->>>>>>> d3db058a0692defbd6ebfe9fe486b7c2b9811a9b
 body {
 	font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -61,18 +50,7 @@ nav a:hover {
 	color: white;
 }
 
-.maincontent {
-	clear: both;
-}
-
 main {
-<<<<<<< HEAD
- 	width: 70%;
- 	float: left;
- 	margin: 0 1%;
-}
-
-=======
     display: flex;
 }
 
@@ -87,8 +65,6 @@ main {
 
 }
 
-
->>>>>>> d3db058a0692defbd6ebfe9fe486b7c2b9811a9b
 footer {
 	background-color: white;
 	color: #a88a4b;
