@@ -57,6 +57,7 @@
   {{ page.highlighted }}
 
   {{ page.help }}
+<<<<<<< HEAD
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
@@ -67,6 +68,18 @@
       </div>
     
         <section class="side-navigation">
+=======
+ <main role="main">
+    <div class="content-wrapper">
+        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+        <div class="layout-content">
+          {{ page.content }}
+        </div>{# /.layout-content #}
+     </div>
+    
+    <section class="side-navigation">
+>>>>>>> d3db058a0692defbd6ebfe9fe486b7c2b9811a9b
             {% if page.sidebar_first %}
               <aside class="layout-sidebar-first" role="complementary">
                 {{ page.sidebar_first }}
@@ -77,10 +90,17 @@
               <aside class="layout-sidebar-second" role="complementary">
                 {{ page.sidebar_second }}
               </aside>
+<<<<<<< HEAD
         {% endif %}
     </section>
      
     </main>
+=======
+            {% endif %}
+     </section>
+     
+</main>
+>>>>>>> d3db058a0692defbd6ebfe9fe486b7c2b9811a9b
 
   {% if page.footer %}
     <footer role="contentinfo">

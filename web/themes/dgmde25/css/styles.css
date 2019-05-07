@@ -1,4 +1,12 @@
+<!--
+aside {
+    display: flex;
+	background-color: white;
+	color: #a88a4b;    
+}
+-->
 
+<<<<<<< HEAD
 aside {
 	width: 20%;
     display: flex;
@@ -6,6 +14,8 @@ aside {
 	color: #a88a4b;    
 }
    
+=======
+>>>>>>> d3db058a0692defbd6ebfe9fe486b7c2b9811a9b
 body {
 	font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -26,7 +36,7 @@ a {
 	color: #a88a4b;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: white;
 }
 nav {
 	background-color: black;
@@ -54,12 +64,31 @@ nav a:hover {
 .maincontent {
 	clear: both;
 }
+
 main {
+<<<<<<< HEAD
  	width: 70%;
  	float: left;
  	margin: 0 1%;
 }
 
+=======
+    display: flex;
+}
+
+.content-wrapper{
+    width: 70%;
+}
+
+.side-navigation{
+    width: 25%;
+    background-color: white;
+	color: #a88a4b;    
+
+}
+
+
+>>>>>>> d3db058a0692defbd6ebfe9fe486b7c2b9811a9b
 footer {
 	background-color: white;
 	color: #a88a4b;
