@@ -46,16 +46,15 @@ nav a:hover {
 	color: white;
     font-weight: bold;
 }
+
+<!---
 .maincontent{
     clear: both;
 }
 main {
     float:left;
 }
-
-.layout-content{
-    float:left;
-}
+-->
 
 .layout-sidebar-first{
     width: 10%;
@@ -69,11 +68,13 @@ main {
     width: 10%;
 }
 
+<!--
 aside {
     float: left;
 	background-color: white;
 	color: #a88a4b;    
 }
+-->
 
 footer {
     font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
