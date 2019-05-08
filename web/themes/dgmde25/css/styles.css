@@ -65,8 +65,8 @@ nav a:hover {
 
 .layout-content{
     width: 60%;
-    margin-right: auto;
-    margin-left: 0;
+    margin-right: 0;
+    margin-left: 10;
  }
 
 .layout-sidebar-second{    
