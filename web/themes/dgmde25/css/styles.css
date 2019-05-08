@@ -55,35 +55,26 @@ nav a:hover {
     position: relative;
     float: left;
   }
-    [dir="rtl"].main-content {
-        float:right;
+    
     }
-.layout-two-sidebars .main-content {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
-  }
-  .layout-one-sidebar .main-content {
-    width: 75%;
-  }
-  .layout-no-sidebars .main-content {
-    width: 100%;
-  }
-  .layout-sidebar-first .main-content {
-    margin-right: 0; /* LTR */
-    margin-left: 25%; /* LTR */
-  }
-  [dir="rtl"] .layout-sidebar-first .main-content {
-    margin-right: 25%;
-    margin-left: 0;
-  }
-  .layout-sidebar-second .main-content {
-    margin-right: 25%; /* LTR */
-    margin-left: 0; /* LTR */
-  }
-  [dir="rtl"] .layout-sidebar-second .main-content {
-    margin-right: 0;
-    margin-left: 25%;
+.layout-sidebar-first{    
+    width: 10%;
+    float: left;
+    margin 0;
+    color: #a88a4b;
+ }
+
+.main-content{
+    width: 60%;
+    margin-right: 10%;
+    margin-left: 20%;
+ }
+
+.layout-sidebar-second{    
+    width: 20%;
+    display: flex; 
+    float: right;
+    color: #a88a4b;
   }
 }
 
