@@ -48,11 +48,15 @@ nav a:hover {
 }
 
 
+@media all and (min-width: 851px) {
+  .layout-container {
+    max-width: 1290px;
+  }
+}
 
 .content-wrapper{
     width: 50%;
     box-sizing: border-box;
-    max-width: 1290px;  
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
