@@ -65,10 +65,7 @@ nav a:hover {
 .content-wrapper{
     width: 60%;
     box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    display: flex;
 }
 
 .layout-sidebar-second{    
