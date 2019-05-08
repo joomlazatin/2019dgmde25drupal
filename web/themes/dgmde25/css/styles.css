@@ -60,7 +60,6 @@ nav a:hover {
     width: 10%;
     float: left;
     margin-left: 0;
-    margin-right: 25%;
     color: #a88a4b;
  }
 
@@ -74,8 +73,7 @@ nav a:hover {
     width: 20%;
     display: flex; 
     float: right;
-    margin-left: 0;
-    margin-right: 25%;
+    margin-left: 0;    
     color: #a88a4b;
   }
 }
