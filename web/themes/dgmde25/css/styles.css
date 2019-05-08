@@ -66,9 +66,9 @@ nav a:hover {
 }
 
 .content-wrapper{
-    width: 65%;
-    margin-right: 0%;
-    margin-left: 0%;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .layout-sidebar-second{    
