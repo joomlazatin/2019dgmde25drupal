@@ -63,16 +63,14 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-.layout-sidebar-first{
-    width: 10%;
+.layout-sidebar-first{    
     display: flex;
     float: left;
-    margin 0 1%;
+    margin 1% 0%;
     color: #a88a4b;
 }
 
-.layout-sidebar-second{
-    width: 25%;
+.layout-sidebar-second{    
     display: flex;
     float: right;
     color: #a88a4b;
