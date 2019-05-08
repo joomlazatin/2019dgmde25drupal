@@ -55,7 +55,9 @@ nav a:hover {
     position: relative;
     float: left;
   }
-
+    [dir="rtl"].main-content {
+        float:right;
+    }
     
 .layout-sidebar-first{    
     width: 10%;
