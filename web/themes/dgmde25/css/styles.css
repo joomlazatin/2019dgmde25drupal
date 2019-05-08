@@ -65,7 +65,7 @@ nav a:hover {
 
 .layout-sidebar-first{    
     width: 10%;
-    display: flex;
+<!---    display: flex; -->
     float: left;
     margin 1% 0%;
     color: #a88a4b;
@@ -73,7 +73,7 @@ nav a:hover {
 
 .layout-sidebar-second{    
     width: 20%;
-    display: flex;
+<!--  display: flex; -->
     float: right;
     color: #a88a4b;
 }
