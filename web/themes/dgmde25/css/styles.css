@@ -52,7 +52,7 @@ nav a:hover {
   .layout-container {
     max-width: 1290px;
   }
-    .content-wrapper, .layout-sidebar-first, .layout-sidebar-second {
+    .layout-content, .layout-sidebar-first, .layout-sidebar-second {
         width: 100%;
     }
 }
