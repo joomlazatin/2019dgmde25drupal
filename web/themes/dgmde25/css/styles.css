@@ -54,6 +54,14 @@ nav a:hover {
   }
 }
 
+.layout-sidebar-first{    
+    width: 10%;
+<!---    display: flex; -->
+    float: left;
+    margin 1% 0%;
+    color: #a88a4b;
+}
+
 .content-wrapper{
     width: 60%;
     box-sizing: border-box;
@@ -63,17 +71,9 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-.layout-sidebar-first{    
-    width: 10%;
-<!---    display: flex; -->
-    float: left;
-    margin 1% 0%;
-    color: #a88a4b;
-}
-
 .layout-sidebar-second{    
     width: 20%;
-<!--  display: flex; -->
+    display: flex; 
     float: right;
     color: #a88a4b;
 }
