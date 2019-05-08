@@ -56,15 +56,15 @@ nav a:hover {
     float: left;
   }
     
-    
 .layout-sidebar-first{    
     width: 10%;
     float: left;
-    margin 0;
+    margin-left: 0;
+    margin-right: 25%;
     color: #a88a4b;
  }
 
-.main-content{
+.layout-content{
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -74,6 +74,8 @@ nav a:hover {
     width: 20%;
     display: flex; 
     float: right;
+    margin-left: 0;
+    margin-right: 25%;
     color: #a88a4b;
   }
 }
