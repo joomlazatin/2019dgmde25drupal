@@ -51,17 +51,14 @@ nav a:hover {
 
 
 @media all and (min-width: 851px) {
-  .layout-container {
-    max-width: 1290px;
+  .main-content {
+    position: relative;
+    float: left;
   }
-    .layout-content, .layout-sidebar-first, .layout-sidebar-second {
-        width: 100%;
-    }
-}
 
+    
 .layout-sidebar-first{    
     width: 10%;
-<!---    display: flex; -->
     float: left;
     margin 1% 0%;
     color: #a88a4b;
@@ -79,6 +76,9 @@ nav a:hover {
     float: right;
     color: #a88a4b;
 }
+
+}
+
 
 
 footer {
