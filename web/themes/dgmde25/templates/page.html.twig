@@ -66,21 +66,21 @@
           {{ page.content }}
         </div>{# /.layout-content #}
     
-            {% if page.sidebar_first %}
-             <div id="sidebar-first" class="column sidebar">
+        {% if page.sidebar_first %}
+         <div id="sidebar-first" class="column sidebar">
               <aside class="layout-sidebar-first" role="complementary">
                 {{ page.sidebar_first }}
               </aside>
-              </div>
-            {% endif %}
+         </div>
+        {% endif %}
 
-            {% if page.sidebar_second %}
-              <div id="sidebar-second" class="column sidebar">
+        {% if page.sidebar_second %}
+          <div id="sidebar-second" class="column sidebar">
               <aside class="layout-sidebar-second" role="complementary">
                 {{ page.sidebar_second }}
               </aside>
-              </div>
-           {% endif %}
+          </div>
+        {% endif %}
     </div>
      
 </main>
