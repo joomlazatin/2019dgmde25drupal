@@ -65,21 +65,23 @@
         <div class="layout-content">
           {{ page.content }}
         </div>{# /.layout-content #}
-     </div>
     
-    <section class="side-navigation">
             {% if page.sidebar_first %}
+             <div id="sidebar-first" class="column sidebar">
               <aside class="layout-sidebar-first" role="complementary">
                 {{ page.sidebar_first }}
               </aside>
+              </div>
             {% endif %}
 
             {% if page.sidebar_second %}
+              <div id="sidebar-second" class="column sidebar">
               <aside class="layout-sidebar-second" role="complementary">
                 {{ page.sidebar_second }}
               </aside>
-        {% endif %}
-    </section>
+              </div>
+           {% endif %}
+    </div>
      
 </main>
 
