@@ -49,7 +49,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-
+<!-- commented temporarily to test main-content.css
 @media all and (min-width: 851px) {
   .main-content {
     position: relative;
@@ -71,13 +71,12 @@ nav a:hover {
 
 .layout-sidebar-second{    
     width: 20%;
-    float: right;
-    display: flex; 
+    float: right; 
     margin-left: 0;    
     color: #a88a4b;
   }
 }
-
+-->
 
 
 footer {
