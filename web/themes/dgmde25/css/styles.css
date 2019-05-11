@@ -49,48 +49,33 @@ nav a:hover {
     font-weight: bold;
 }
 
-.one-sidebar .main-content,
-.two-sidebars .main-content {
-  width: 100%;
-}
 
 @media all and (min-width: 851px) {
   .main-content {
     position: relative;
-    float: left; /* LTR */
+    float: left;
   }
-  [dir="rtl"] .main-content {
-    float: right;
-  }
-  .layout-two-sidebars .main-content {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
-  }
-  .layout-one-sidebar .main-content {
-    width: 75%;
-  }
-  .layout-no-sidebars .main-content {
-    width: 100%;
-  }
-  .layout-sidebar-first .main-content {
-    margin-right: 0; /* LTR */
-    margin-left: 25%; /* LTR */
-  }
-  [dir="rtl"] .layout-sidebar-first .main-content {
-    margin-right: 25%;
+    
+.layout-sidebar-first{    
+    width: 10%;
     margin-left: 0;
-  }
-  .layout-sidebar-second .main-content {
-    margin-right: 25%; /* LTR */
-    margin-left: 0; /* LTR */
-  }
-  [dir="rtl"] .layout-sidebar-second .main-content {
-    margin-right: 0;
-    margin-left: 25%;
+    color: #a88a4b;
+ }
+
+.layout-content{
+    width: 60%;
+    display: flex; 
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+.layout-sidebar-second{    
+    width: 20%;
+    float: right; 
+    margin-left: 0;    
+    color: #a88a4b;
   }
 }
-
 
 footer {
     font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
