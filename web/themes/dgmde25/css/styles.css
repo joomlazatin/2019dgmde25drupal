@@ -44,13 +44,14 @@ nav a {
 	font-weight: bold;
 	text-decoration: none;
 }
-nav a:hover:not(.active) {
+nav a:hover {
 	color: white;
     font-weight: bold;
 }
 
-.active {
+nav a:active {
  background-color: navajowhite;
+   font-weight: bold;    
 }
 
 body {
