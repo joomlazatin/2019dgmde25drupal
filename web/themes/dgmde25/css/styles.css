@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 nav a:active {
- background-color: navajowhite;
+ color: navajowhite;
    font-weight: bold;    
 }
 
