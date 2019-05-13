@@ -57,9 +57,8 @@ body {
     
 }
 
-.layout-sidebar-first{    
+.layout-sidebar{    
     height: 300px;
-    margin-left: 0;
     color: #a88a4b;
  }
 
@@ -67,12 +66,6 @@ body {
     height: 300px;
 }
 
-.layout-sidebar-second{    
-    float: right; 
-    height: 300px;
-    margin-left: 0;    
-    color: #a88a4b;
-  }
 
 div {
     box-sizing: border-box
@@ -84,7 +77,7 @@ div {
     justify-content: flex-start;
   }
 
-    .layout-sidebar-first{
+    .layout-sidebar{
         width: 200px;
     }
     
@@ -94,9 +87,7 @@ div {
     margin-left: auto;
     }
     
-    .layout-sidebar-second{
-        width: 200px;
-    }
+  
 
 }
 
