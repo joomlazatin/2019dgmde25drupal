@@ -58,7 +58,6 @@ body {
 }
 
 .layout-sidebar-first{    
-    width: 10%;
     height: 300px;
     margin-left: 0;
     color: #a88a4b;
@@ -69,7 +68,6 @@ body {
 }
 
 .layout-sidebar-second{    
-    width: 20%;
     float: right; 
     height: 300px;
     margin-left: 0;    
@@ -89,14 +87,17 @@ div {
     .layout-sidebar-first{
         width: 200px;
     }
-    .layout-sidebar-second{
-        width: 200px;
-    }
-.layout-content{
+    
+    .layout-content{
     width: 100%;    
     margin-right: auto;
     margin-left: auto;
- }
+    }
+    
+    .layout-sidebar-second{
+        width: 200px;
+    }
+
 }
 
 footer {
