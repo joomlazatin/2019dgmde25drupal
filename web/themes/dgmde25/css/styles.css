@@ -54,6 +54,11 @@ nav a:active {
    font-weight: bold;    
 }
 
+nav a:focus {
+ color: navajowhite;
+   font-weight: bold;    
+}
+
 body {
 	font-family: Source San Pro, Arial, Helvetica, sans-serif;
     margin:0;
