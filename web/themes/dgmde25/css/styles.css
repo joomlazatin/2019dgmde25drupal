@@ -57,14 +57,21 @@ body {
     
 }
 
-.layout-sidebar{    
+.layout-sidebar-first{    
     height: 300px;
+    margin-left:0
     color: #a88a4b;
  }
 
 .layout-content{
     height: 300px;
 }
+
+.layout-sidebar-second{    
+    height: 300px;
+    color: #a88a4b;
+    float:right;
+ }
 
 
 div {
@@ -77,7 +84,7 @@ div {
     justify-content: flex-start;
   }
 
-    .layout-sidebar{
+    .layout-sidebar-first{
         width: 200px;
     }
     
@@ -87,11 +94,14 @@ div {
     margin-left: auto;
     }
     
-  
+  .layout-sidebar-second{
+        width: 200px;
+    }
 
 }
 
 footer {
+    justify-content: flex-start;
     font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
     background-color: white;
 	color: #a88a4b;
