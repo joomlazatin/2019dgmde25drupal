@@ -64,6 +64,9 @@ body {
     color: #a88a4b;
  }
 
+.layout-content{
+    height: 300px;
+}
 
 .layout-sidebar-second{    
     width: 20%;
@@ -73,9 +76,6 @@ body {
     color: #a88a4b;
   }
 
-.layout-content{
-    height: 300px;
-}
 div {
     box-sizing: border-box
 }
