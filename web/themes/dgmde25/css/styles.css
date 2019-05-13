@@ -44,9 +44,13 @@ nav a {
 	font-weight: bold;
 	text-decoration: none;
 }
-nav a:hover {
+nav a:hover:not(.active) {
 	color: white;
     font-weight: bold;
+}
+
+.active {
+ background-color: #a88a4b;
 }
 
 body {
