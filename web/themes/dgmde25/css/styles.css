@@ -58,17 +58,17 @@ body {
 }
 
 .layout-sidebar-first{    
-    height: 1000px;
+    height: auto;
     margin-left:0
     color: #a88a4b;
  }
 
 .layout-content{
-    height: 1000px;
+    height: auto;
 }
 
 .layout-sidebar-second{    
-    height: 1000px;
+    height: auto;
     color: #a88a4b;
     float:right;
  }
