@@ -58,17 +58,17 @@ body {
 }
 
 .layout-sidebar-first{    
-    height: 300px;
+    height: 1200px;
     margin-left:0
     color: #a88a4b;
  }
 
 .layout-content{
-    height: 300px;
+    height: 1200px;
 }
 
 .layout-sidebar-second{    
-    height: 300px;
+    height: 1200px;
     color: #a88a4b;
     float:right;
  }
@@ -105,6 +105,7 @@ div {
     display: flex;
     justify-content: flex-start;
 }
+
 footer {
     font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
     background-color: white;
