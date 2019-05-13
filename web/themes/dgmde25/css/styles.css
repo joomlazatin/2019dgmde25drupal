@@ -100,8 +100,11 @@ div {
 
 }
 
+div {
+    justify-content: flex-end;
+}
+
 footer {
-    justify-content: flex-start;
     font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
     background-color: white;
 	color: #a88a4b;
